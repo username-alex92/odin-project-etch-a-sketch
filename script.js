@@ -16,7 +16,7 @@ document.body.appendChild(container);
 
 function createGrid(userChoice) {
     container.textContent = "";
-    const size = 800 / userChoice;
+    const size = 750 / userChoice;
     for (let i = 0; i < userChoice; i++) {
         let row = document.createElement("div");
         row.classList.toggle("row");
@@ -30,7 +30,7 @@ function createGrid(userChoice) {
         }
     }
 
-    container.style.maxWidth = "800px";
+    container.style.maxWidth = "750px";
 }
 
 
